@@ -24,12 +24,8 @@ faeria_group = {
 			all_power_cost = -0.025
 		}
 		allowed_conversion = {
-			catholic
-			protestant
-			reformed
-			orthodox
-			sunni
-			confucianism
+			animism
+			totemism
 		}
 
 		on_convert = {
