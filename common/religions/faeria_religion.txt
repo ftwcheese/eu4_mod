@@ -1,10 +1,16 @@
+# IF YOU ADD OR REMOVE A RELIGION, YOU MUST GO TO 
+# interface/ledger.gfx and change the GFX_religion_icon_strip noOfFrames value
+# intercace/countryview.gfx and change the GFX_icon_religion, GFX_country_icon_religion and GFX_icon_religion_small noOfFrames value
+# interface/provinceview.gfx and change GFX_province_view_religion 
+
+
 faeria_group = {
 	flags_with_emblem_percentage = 10
 	flag_emblem_index_range = {
 		83 96
 	}
-	myfirstreligion = {
+	faeria = {
 		color = {100 100 100}
-		icon = 1
+		icon = 30
 	}
 }
