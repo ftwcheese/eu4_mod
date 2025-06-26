@@ -1,0 +1,25 @@
+# My Custom Decision
+country_decision = {
+    # Unique key for the decision
+    key = "start_faeria"
+
+    # Decision that is available to any country
+    potential = {
+        always = yes
+    }
+
+    # Whether the decision can be taken
+    allow = {
+        always = yes
+    }
+
+    # Effects of the decision
+    effect = {
+        religion = faeria
+    }
+
+    # AI likelihood to take the decision
+    ai_chance = {
+        factor = 0
+    }
+}
